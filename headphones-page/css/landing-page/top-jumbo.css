@@ -1,0 +1,216 @@
+#top-jumbo{
+  padding: 0 0 400px;
+  background: #ffffff; /* Old browsers */
+background: -moz-linear-gradient(-45deg, #ffffff 0%, #ffffff 31%, #ffffff 43%, #9139dd 79%, #ea7ee5 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #ffffff 0%,#ffffff 31%,#ffffff 43%,#9139dd 79%,#ea7ee5 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #ffffff 0%,#ffffff 31%,#ffffff 43%,#9139dd 79%,#ea7ee5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+#top-jumbo:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#top-jumbo .left-side{
+  width: 40%;
+  display: inline-block;
+  float: left;
+}
+#top-jumbo .left-side .large-number{
+  font-size: 300px;
+  font-weight: 700;
+  opacity: .1;
+  color: #4C44C1;
+  position: relative;
+  left: -22px;
+  top: 0;
+  z-index: 1;
+}
+#top-jumbo .left-side .info-container{
+  position: relative;
+  top: -100px;
+}
+#top-jumbo .left-side .info-container h1{
+  font-size: 4.5rem;
+  color: #4C44C1;
+  text-transform: capitalize;
+  margin-bottom: 1.5rem;
+  line-height: 1.1;
+}
+#top-jumbo .left-side .info-container p{
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.8;
+  color: #aaacaf;
+  margin-bottom: 1.5rem;
+}
+#top-jumbo .left-side .info-container .email-area{
+  background: #fff;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px;
+}
+#top-jumbo .left-side .info-container .email-area .far{
+  font-size: 2rem;
+  position: relative;
+  top: 7px;
+  margin-left: 15px;
+  color: #D5E2EA;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"]{
+  background: #fff;
+  border:none;
+  padding: 10px;
+  text-transform: capitalize;
+  font-size: 1rem;
+  width: 230px;
+}
+#top-jumbo .left-side .info-container .email-area button{
+  background: #6066F2;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 20px 50px;
+  border-radius: 50px;
+}
+
+#top-jumbo .right-side{
+  width: 60%;
+  display: inline-block;
+  float: left;
+  padding: 0 40px;
+
+}
+#top-jumbo .right-side img{
+  width: 100%;
+
+}
+
+/*LAPTOPS DEVICES */
+@media only screen and (max-width: 1215px) {
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+}
+#top-jumbo .left-side .info-container h1{
+  font-size: 3.5rem;
+}
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"] {
+    position: relative;
+    top: 12px;
+    width: 50%;
+    float: left;
+}
+#top-jumbo .left-side .info-container .email-area button {
+    background: #6066F2;
+    font-size: 1rem;
+    padding: 20px 0;
+    width: 35%;
+    float: left;
+}
+
+}
+/*TABLETS DEVICES */
+@media only screen and (max-width: 1023px) {
+  #top-jumbo {
+    padding: 0 0 300px;
+}
+  #top-jumbo .left-side {
+    width: 40%;
+    }
+    #top-jumbo .left-side .large-number {
+    font-size: 250px;
+}
+#top-jumbo .left-side .info-container p {
+    font-size: 1.2rem;
+  }
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+}
+#top-jumbo .left-side .info-container h1{
+  font-size: 3.5rem;
+}
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"] {
+    position: relative;
+    top: 12px;
+    width: 50%;
+    float: left;
+}
+#top-jumbo .left-side .info-container .email-area button {
+    background: #6066F2;
+    font-size: 1rem;
+    padding: 20px 0;
+    width: 35%;
+    float: left;
+}
+#top-jumbo .right-side {
+    width: 60%;
+}
+#top-jumbo .right-side img{
+    position: relative;
+    top: 156px;
+}
+}
+/*MOBILE DEVICES */
+@media only screen and (max-width: 767px) {
+  #top-jumbo {
+    padding: 0 0 300px;
+}
+  #top-jumbo .left-side {
+    width: 100%;
+    }
+    #top-jumbo .left-side .large-number {
+    font-size: 250px;
+}
+#top-jumbo .left-side .info-container p {
+    font-size: 1.2rem;
+  }
+  #top-jumbo .left-side .info-container .email-area {
+    width: 100%;
+}
+#top-jumbo .left-side .info-container h1{
+  font-size: 3.5rem;
+}
+  #top-jumbo .left-side .info-container .email-area .far {
+    position: relative;
+    top: 14px;
+    margin-left: 0;
+    float: left;
+    width: 15%;
+    text-align: center;
+}
+#top-jumbo .left-side .info-container .email-area input[type="email"] {
+    position: relative;
+    top: 12px;
+    width: 50%;
+    float: left;
+}
+#top-jumbo .left-side .info-container .email-area button {
+    background: #6066F2;
+    font-size: 1rem;
+    padding: 20px 0;
+    width: 35%;
+    float: left;
+}
+#top-jumbo .right-side {
+    width: 100%;
+}
+#top-jumbo .right-side img{
+  top: 0px;
+}
+}
